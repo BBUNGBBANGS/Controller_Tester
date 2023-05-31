@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations>
+<location key="LocalFileSelectionComposite_FILE_PATH" value="D:\1.Project_workspace\Controller_Tester\Project\app"/>
+<location key="CompileFlagOptionConfigurationComposite_Include_Add" value="D:\1.Project_workspace\Controller_Tester\Project\app\Core"/>
+<location key="com.codescroll.ut.ui.TestdataImportExportPath" value="D:\1.Project_workspace\단위통합검증보고서\단위검증\테스트케이스"/>
+<location key="DirectoryLocator_DIRECTORY_PATH" value="D:\1.Project_workspace\단위통합검증보고서\단위검증\결과보고서"/>
+<location key="com.codescroll.ut.ui.wizards.pages.ExportProjectPage" value="D:\1.Project_workspace\단위통합검증보고서\단위검증"/>
+<location key="커버리지 내보내기" value="D:\1.Project_workspace\단위통합검증보고서\단위검증\결과보고서"/>
+</locations>

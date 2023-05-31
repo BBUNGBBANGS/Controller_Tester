@@ -1,0 +1,3 @@
+#SystemCoverageExporter
+-SystemCoverageExporter:run=true
+-SystemCoverageExporter:cvpath=D:\1.Project_workspace\Controller_Tester\App_Test\.csdata\export.csd

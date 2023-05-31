@@ -1,0 +1,42 @@
+#line 2 "cs_test%dmaGroupANotification_test0%cs_error"
+/* dmaGroupANotification_test0.c */
+#ifndef __dmaGroupANotification_test0__
+#define __dmaGroupANotification_test0__
+
+#include "../factory/factory.h"
+
+#include "dmaGroupANotification_test0.h"
+
+void CS_TEST dmaGroupANotification_test0()
+{
+	/*Do not modify CS_TEST_PARAMETER()*/
+	CS_TEST_PARAMETER(dmaGroupANotification_test0);
+	/*Do not remove connect_stub_configuration()*/
+	int cs_stub_connect_function_call = connect_dmaGroupANotification_test0_stub_configuration();
+	{/*<START TEST>*/
+
+
+	/*Declaration (parameter/return/target object) variables*/
+	enum dmaInterrupt inttype ; 
+	unsigned int channel  = 0; 
+
+	/*Input*/
+	inttype = (enum dmaInterrupt)CS_INT_INPUT(enum dmaInterrupt,"inttype");
+	channel = CS_UINT_INPUT(unsigned int,"channel");
+
+
+
+	/* dmaGroupANotification(enum dmaInterrupt, unsigned int) */
+	dmaGroupANotification(inttype,channel);
+
+
+
+
+	/*<END TEST>*/}
+	/*<CS_DISCONNECT_CODE_START>*/
+	/*Do not remove disConnect_stub_configuration()*/
+	disConnect_dmaGroupANotification_test0_stub_configuration();
+	/*<CS_DISCONNECT_CODE_END>*/
+}
+
+#endif

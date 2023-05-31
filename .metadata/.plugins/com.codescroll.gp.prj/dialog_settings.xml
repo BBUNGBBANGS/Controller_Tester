@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SourceFileSelectWizardPage">
+		<item value="D:\1.Project_workspace\Controller_Tester\Project\app" key="TOP_DIRECTORY"/>
+	</section>
+	<section name="ProjectGeneralInfoWizardPage">
+		<item value="D:\1.Project_workspace\Controller_Tester" key="LOCATION"/>
+	</section>
+</section>

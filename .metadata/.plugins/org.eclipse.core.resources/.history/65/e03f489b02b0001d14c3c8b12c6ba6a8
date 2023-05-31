@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding/adc_pwr.c=UTF-8
+encoding/config.c=UTF-8
+encoding/diag.c=UTF-8
+encoding/dio.c=UTF-8
+encoding/het.c=UTF-8
+encoding/i2c_eep.c=UTF-8
+encoding/logic.c=EUC-KR
+encoding/protocol.c=EUC-KR
+encoding/pulse.c=UTF-8
+encoding/scm.c=EUC-KR
+encoding/serial.c=EUC-KR
+encoding/sys_main.c=EUC-KR
+encoding/tick.c=UTF-8

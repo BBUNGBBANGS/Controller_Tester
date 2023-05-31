@@ -1,0 +1,110 @@
+#line 2 "cs_test%dmaSetCtrlPacket_test0%cs_error"
+/* dmaSetCtrlPacket_test0.c */
+#ifndef __dmaSetCtrlPacket_test0__
+#define __dmaSetCtrlPacket_test0__
+
+#include "../factory/factory.h"
+
+#include "dmaSetCtrlPacket_test0.h"
+
+void CS_TEST dmaSetCtrlPacket_test0()
+{
+	/*Do not modify CS_TEST_PARAMETER()*/
+	CS_TEST_PARAMETER(dmaSetCtrlPacket_test0);
+	/*Do not remove connect_stub_configuration()*/
+	int cs_stub_connect_function_call = connect_dmaSetCtrlPacket_test0_stub_configuration();
+	{/*<START TEST>*/
+
+#line 1 "cs_test%dmaSetCtrlPacket_test0%User code start"
+typedef volatile struct
+{
+     
+     struct                                     /* 0x000-0x400 */
+     {
+      uint32 ISADDR;
+      uint32 IDADDR;
+      uint32 ITCOUNT; 
+      uint32  rsvd1;    
+      uint32 CHCTRL;
+      uint32 EIOFF;
+      uint32 FIOFF;
+      uint32  rsvd2;  
+     }PCP[32U];
+
+     struct                                     /* 0x400-0x800   */
+     {
+       uint32 res[256U];
+     } RESERVED;
+
+     struct                                     /* 0x800-0xA00 */
+     {
+      uint32 CSADDR;
+      uint32 CDADDR;
+      uint32 CTCOUNT;
+      uint32  rsvd3; 
+     }WCP[32U];
+
+} dmaRAMBASE_t;
+extern dmaRAMBASE_t *dmaRAMREG_tmp;
+#line 50 "cs_test%dmaSetCtrlPacket_test0%cs_error"
+	/*Declaration (parameter/return/target object) variables*/
+	struct unnamed_153 dmaRAMREG_tmp_mem [1]={0,}; 
+	struct dmaBase dmaREG_tmp_mem [1]={0,}; 
+	unsigned int channel  = 0; 
+	struct dmaCTRLPKT g_dmaCTRLPKT ; 
+
+	/*Memory assign*/
+	dmaRAMREG_tmp = dmaRAMREG_tmp_mem;
+	dmaREG_tmp = dmaREG_tmp_mem;
+
+	/*Input*/
+	dmaRAMREG_tmp_mem[0].PCP[0].ISADDR = CS_UINT_INPUT(unsigned int,"dmaRAMREG_tmp_mem[0].PCP[0].ISADDR");
+	dmaRAMREG_tmp_mem[0].PCP[0].IDADDR = CS_UINT_INPUT(unsigned int,"dmaRAMREG_tmp_mem[0].PCP[0].IDADDR");
+	dmaRAMREG_tmp_mem[0].PCP[0].ITCOUNT = CS_UINT_INPUT(unsigned int,"dmaRAMREG_tmp_mem[0].PCP[0].ITCOUNT");
+	dmaRAMREG_tmp_mem[0].PCP[0].CHCTRL = CS_UINT_INPUT(unsigned int,"dmaRAMREG_tmp_mem[0].PCP[0].CHCTRL");
+	dmaRAMREG_tmp_mem[0].PCP[0].EIOFF = CS_UINT_INPUT(unsigned int,"dmaRAMREG_tmp_mem[0].PCP[0].EIOFF");
+	dmaRAMREG_tmp_mem[0].PCP[0].FIOFF = CS_UINT_INPUT(unsigned int,"dmaRAMREG_tmp_mem[0].PCP[0].FIOFF");
+	dmaREG_tmp_mem[0].PAR[0] = CS_UINT_INPUT(unsigned int,"dmaREG_tmp_mem[0].PAR[0]");
+	channel = CS_UINT_INPUT(unsigned int,"channel");
+	g_dmaCTRLPKT.SADD = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.SADD");
+	g_dmaCTRLPKT.DADD = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.DADD");
+	g_dmaCTRLPKT.CHCTRL = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.CHCTRL");
+	g_dmaCTRLPKT.FRCNT = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.FRCNT");
+	g_dmaCTRLPKT.ELCNT = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.ELCNT");
+	g_dmaCTRLPKT.ELDOFFSET = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.ELDOFFSET");
+	g_dmaCTRLPKT.ELSOFFSET = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.ELSOFFSET");
+	g_dmaCTRLPKT.FRDOFFSET = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.FRDOFFSET");
+	g_dmaCTRLPKT.FRSOFFSET = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.FRSOFFSET");
+	g_dmaCTRLPKT.PORTASGN = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.PORTASGN");
+	g_dmaCTRLPKT.RDSIZE = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.RDSIZE");
+	g_dmaCTRLPKT.WRSIZE = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.WRSIZE");
+	g_dmaCTRLPKT.TTYPE = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.TTYPE");
+	g_dmaCTRLPKT.ADDMODERD = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.ADDMODERD");
+	g_dmaCTRLPKT.ADDMODEWR = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.ADDMODEWR");
+	g_dmaCTRLPKT.AUTOINIT = CS_UINT_INPUT(unsigned int,"g_dmaCTRLPKT.AUTOINIT");
+
+
+
+	/* dmaSetCtrlPacket(unsigned int, struct dmaCTRLPKT) */
+	dmaSetCtrlPacket(channel,g_dmaCTRLPKT);
+
+
+
+
+	/*Output*/
+	CS_UINT_OUTPUT(dmaRAMREG_tmp_mem[0].PCP[0].ISADDR, "dmaRAMREG_tmp_mem[0].PCP[0].ISADDR");
+	CS_UINT_OUTPUT(dmaRAMREG_tmp_mem[0].PCP[0].IDADDR, "dmaRAMREG_tmp_mem[0].PCP[0].IDADDR");
+	CS_UINT_OUTPUT(dmaRAMREG_tmp_mem[0].PCP[0].ITCOUNT, "dmaRAMREG_tmp_mem[0].PCP[0].ITCOUNT");
+	CS_UINT_OUTPUT(dmaRAMREG_tmp_mem[0].PCP[0].CHCTRL, "dmaRAMREG_tmp_mem[0].PCP[0].CHCTRL");
+	CS_UINT_OUTPUT(dmaRAMREG_tmp_mem[0].PCP[0].EIOFF, "dmaRAMREG_tmp_mem[0].PCP[0].EIOFF");
+	CS_UINT_OUTPUT(dmaRAMREG_tmp_mem[0].PCP[0].FIOFF, "dmaRAMREG_tmp_mem[0].PCP[0].FIOFF");
+	CS_UINT_OUTPUT(dmaREG_tmp_mem[0].PAR[0], "dmaREG_tmp_mem[0].PAR[0]");
+
+	/*<END TEST>*/}
+	/*<CS_DISCONNECT_CODE_START>*/
+	/*Do not remove disConnect_stub_configuration()*/
+	disConnect_dmaSetCtrlPacket_test0_stub_configuration();
+	/*<CS_DISCONNECT_CODE_END>*/
+}
+
+#endif

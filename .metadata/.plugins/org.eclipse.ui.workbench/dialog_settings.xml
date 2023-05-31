@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="971" key="DIALOG_X_ORIGIN"/>
+		<item value="338" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="com.codescroll.gp.prj.imports.wizards.EmptyCProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.codescroll.gp.rcp.new.CProject"/>
+		</list>
+	</section>
+	<section name="com.codescroll.gp.e4.search.quickaccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="com.codescroll.ut.cover.export" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="com.codescroll.gp.prj.imports.wizards.ImportFileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="com.codescroll.gp.rcp.import.General"/>
+			<item value="com.codescroll.ut.cover.importCoverage"/>
+			<item value="com.codescroll.ut.ImportUnitTest"/>
+			<item value="com.codescroll.gp.prj.import.Preferences"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="com.codescroll.gp.rcp.export.General"/>
+			<item value="com.codescroll.ut.cover.exportCoverage"/>
+			<item value="com.codescroll.ut.ExportUnitTestResult"/>
+		</list>
+	</section>
+</section>
